@@ -9,6 +9,7 @@ import robotsTxt from "astro-robots-txt";
 // https://astro.build/config
 export default defineConfig({
   // Enable Svelte to support Svelte components.
+  site: 'https://blimeo.co',
   integrations: [svelte(), tailwind(), sitemap(), robotsTxt()],
   output: "server",
   adapter: netlify()

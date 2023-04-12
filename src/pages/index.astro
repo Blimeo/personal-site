@@ -2,6 +2,7 @@
 // Component Imports
 import Header from "../components/Header.svelte";
 import SocialIcons from "@rodneylab/svelte-social-icons";
+import { SEO } from "astro-seo";
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -9,6 +10,16 @@ import SocialIcons from "@rodneylab/svelte-social-icons";
 
 <html lang="en">
   <head>
+	<SEO
+      title="Matthew Ye"
+      description="Developer, producer, writer."
+      openGraph={{
+        basic: {
+          title: "Matthew Ye",
+          type: "profile",
+        }
+      }}
+    />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
