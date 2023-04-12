@@ -1,0 +1,58 @@
+---
+// Component Imports
+import Header from "../components/Header.svelte";
+import { Card, Button } from "flowbite-svelte";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      html,
+      body {
+        font-family: "Roboto Mono", monospace;
+        margin: 0;
+      }
+      body {
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50">
+    <main class="mx-auto max-w-screen-lg px-3 py-6">
+      <Header currentPage="projects" client:load />
+      <div
+        class="flex flex-col px-2 sm:px-4 py-2.5 space-y-4 items-center md:justify-between"
+      >
+        <div
+          class="bg-white dark:bg-gray-800 py-2.5 text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md flex flex-col px-4 sm:p-6"
+        >
+          <p>
+            <a
+              class="text-sky-400 hover:underline"
+              target="_blank"
+              href="https://github.com/Blimeo/fitme">fitme</a
+            >: A social network allowing users to share and discover fashion
+            inspiration, built using React/Redux, Flask, MongoDB, and S3. Uses
+            Facebook's Detectron2 object segmentation model to identify clothing
+            items in users’ uploaded images.
+          </p>
+        </div>
+        <div
+          class="bg-white dark:bg-gray-800 py-4 text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md flex flex-col p-4 sm:p-6"
+        >
+          <p>
+            <a
+              class="text-sky-400 hover:underline"
+              target="_blank"
+              href="https://blimeo.github.io/sketch-completion-web/">Sketch Completion</a
+            >: Webapp that converts user-drawn sketches into realistic (ish) images using a generative adversarial network (GAN) model trained on the CIFAR-10 dataset. Live demo uses React.js canvas and Flask backend.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
