@@ -1,1 +1,1 @@
-My personal site at [blimeo.co]
+My personal site at (blimeo.co)[blimeo.co]
