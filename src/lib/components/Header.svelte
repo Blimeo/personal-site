@@ -1,12 +1,12 @@
 <script lang="ts">
 	interface Props {
-		currentPage: 'about' | 'projects';
+		currentPage: 'about' | 'projects' | 'music' | 'blog';
 	}
 
 	let { currentPage }: Props = $props();
 </script>
 
-<div class="flex flex-col px-4 gap-y-2 sm:flex-row sm:items-center sm:justify-between">
+<div class="flex flex-col px-4 gap-y-2 pb-4 sm:flex-row sm:items-center sm:justify-between border-b border-gray-800 ">
 	<a href="/">
 		<div class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
 			♪ Matthew Ye
@@ -19,6 +19,12 @@
 			</li>
 			<li class="hover:text-black">
 				<a href="/projects" class={currentPage === 'projects' ? 'underline' : ''}>Projects</a>
+			</li>
+			<li class="hover:text-black">
+				<a href="/music" class={currentPage === 'music' ? 'underline' : ''}>Music</a>
+			</li>
+			<li class="hover:text-black">
+				<a href="/blog" class={currentPage === 'blog' ? 'underline' : ''}>Blog</a>
 			</li>
 		</ul>
 	</nav>
