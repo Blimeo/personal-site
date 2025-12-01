@@ -7,7 +7,7 @@
 	<meta name="description" content="Matthew Ye's music" />
 </svelte:head>
 
-<div class="bg-slate-50 min-h-screen">
+<div class="min-h-screen">
 	<main class="mx-auto max-w-screen-lg px-3 py-6">
 		<Header currentPage="music" />
 		<div class="px-2 sm:px-4 py-2.5">
