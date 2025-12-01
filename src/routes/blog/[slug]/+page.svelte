@@ -21,6 +21,8 @@
 							</a>
                     {/each}
                 </div>
+
+                <div><a href="/blog" class="text-sky-400 text-xs hover:underline">(back to posts)</a></div>
             
                 <div class="prose mt-4 max-w-none">
                     <data.content />
