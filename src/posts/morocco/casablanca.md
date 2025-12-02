@@ -90,6 +90,7 @@ from Taobao. Step into the maze beyond, though, and a picture of local life begi
   caption="Lunch companion."
 />
 <Image src="https://images.blimeo.dev/morocco/IMG_8745.jpeg" />
+
 Next to the medina is a neighborhood so dense that the streets on Google Maps overlap with one
 another. Although it's undoubtedly one of the poorest places in the city, the streets were
 surprisingly clean and the residents kind - in the span of half an hour, I received a few "welcome
@@ -113,8 +114,10 @@ Muslim donors and organizations from across the world. It's a good single attrac
 <Image src="https://images.blimeo.dev/morocco/IMG_8770.jpeg" />
 <Image src="https://images.blimeo.dev/morocco/IMG_8773.jpeg" />
 <Image src="https://images.blimeo.dev/morocco/IMG_8775.jpeg" />
+
 I went for a sunset walk along the beach at the *corniche* - a word synonymous with class and wealth
 everywhere in Morocco. Even here, however, trash is strewn everywhere. The sunset illuminated a
 vaguely apocalyptic scene of polluted air and polluted ground.
+
 <Image src="https://images.blimeo.dev/morocco/IMG_8783.jpeg" />
 <Image src="https://images.blimeo.dev/morocco/IMG_8786.jpeg" />
