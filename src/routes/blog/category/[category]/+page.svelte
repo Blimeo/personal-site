@@ -25,7 +25,7 @@
                             class="text-sky-400 hover:underline"
                             href={"/blog/" + post.slug}>{post.title}</a
                         >
-                        - {post.description}
+                        -
                         
                         <span class="text-gray-500 text-sm"
                             >{formatDate(post.date)}</span

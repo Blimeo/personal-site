@@ -6,13 +6,7 @@
 	import TravelMap from "$lib/components/TravelMap.svelte";
 	import { slide } from "svelte/transition";
 
-	let showMap = $state(false);
-
-	const posts = [
-		{ lat: 48.8566, long: 2.3522, name: "Paris", url: "/blog/paris" },
-		{ lat: 40.7128, long: -74.006, name: "New York", url: "/blog/nyc" },
-		{ lat: 35.6762, long: 139.6503, name: "Tokyo", url: "/blog/tokyo" },
-	];
+	let showMap = $state(false); 
 </script>
 
 <svelte:head>
@@ -36,7 +30,7 @@
 					transition:slide={{ duration: 300 }}
 					class="h-56 sm:h-80 w-full mb-6"
 				>
-					<TravelMap markers={posts} />
+					<TravelMap posts={data.posts} />
 				</div>
 			{/if}
 			<ul class="list-disc list-inside space-y-1">
@@ -46,8 +40,8 @@
 							class="text-sky-400 hover:underline"
 							href={"/blog/" + post.slug}>{post.title}</a
 						>
-						- {post.description}
-						
+					
+						-
 						<span class="text-gray-500 text-sm"
 							>{formatDate(post.date)}</span
 						>

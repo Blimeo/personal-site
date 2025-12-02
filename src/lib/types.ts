@@ -5,11 +5,6 @@ export type Post = {
 	date: string
 	categories: string[]
 	published: boolean
-}
-
-export type MapMarker = {
-    lat: number
-    long: number
-    name: string
-    url: string
+    lat?: number
+    long?: number
 }
